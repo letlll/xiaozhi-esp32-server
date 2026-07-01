@@ -17,7 +17,6 @@ logger = setup_logging()
 MAX_RETRIES = 2
 RETRY_DELAY = 1  # 重试延迟（秒）
 
-
 # 捕获标准输出
 class CaptureOutput:
     def __enter__(self):
